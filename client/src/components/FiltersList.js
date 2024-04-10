@@ -6,8 +6,9 @@ const FiltersList = () => {
   const dispatch = useDispatch();
 
   let eventsList = useSelector((store) => store.events.eventsList);
-  let eventsListName = eventsList.map((event) => event.attributes.name);
   const selectedFilter = useSelector((store) => store.events.selectedFilter);
+  if (eventsList < 1) return;
+  let eventsListName = eventsList.map((event) => event.attributes.name);
   const uniqNames = new Set(eventsListName);
   eventsListName = ["All", ...uniqNames];
   const handleFilterButton = (event) => {

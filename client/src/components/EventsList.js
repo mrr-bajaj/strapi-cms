@@ -24,6 +24,12 @@ const EventsList = () => {
       (event) => event.attributes.name === selectedFilter
     );
   }
+  if (!eventsList)
+    return (
+      <div className="flex justify-center text-center items-center pt-6 text-6xl">
+        No Events!!
+      </div>
+    );
   return (
     <>
       <div className="flex flex-wrap mx-20">

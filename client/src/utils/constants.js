@@ -1,0 +1,12 @@
+export const LOGO_URL =
+  "https://s3-alpha-sig.figma.com/img/4205/c51a/a1f16abe82de894eccbb489b604888b1?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RZKt3K1l1dWeKF6f-p9WNmqbf~9hmj9VbvBWKISyg4e7JbsyzQe1j6bUqRnUyZbmPvqajsdD8nclDEnVrnfyO9c2e20Blyr29ySPHnqyIpt9lidJ9O0EllWCNNAUdspOnIAOjaBOFQ0A17FlYnVZSuBLMuMPkIelEnSWqWFhzxmcUWXoj34ZntwdBFqsi-h34MCJuNJ1~kcJ7GEP3HgYaUrG1zghgNP0p0VRug25BQ6pmXRoHQDaVO3HmXIpBEwftGrSfOIEvZD0l27BczsPS6mkCGYBhWtwhvqVPStROnemFy7l9XnBiTEin0ik899LyxDq88aC43k-VtD0HB8CQA__";
+
+export const EVENT_THUMBNAIL_URL =
+  "https://s3-alpha-sig.figma.com/img/ea84/0b21/64d7ada54e35f5da39d3a50a9b4ad0c4?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L4lRlvt~Yl7R6vMFd0iqkuF~TVWrlFqmQAFFkBIkVJEmd3HikYoS6ntMyakBmuSjduNfSbeNy2QYgeSImLpqQCQLQdQbVrXICzhnIgSu6sJMo8w226Y0DuDxZ3pDs2y4zier-HAd~NMcUglOga4ebGLY34lvGbCpU2XuHjybLv4w4mpgC2BKBUSt8783CbLRKcknL7MZ8JlMqXjhxPa42ix~n4S4eCKmVQA7IbjqbEimx0nwDNLQc2wAWn-MqYrDxvm9SlNWYW6hssAWQLs9eJDyajha~KOOYznwltiCfR4vDqIWmhYrla7SwPXPm-uWu0DV-IhKlwEldICHm3AinQ__";
+
+export const EVENT_THUMBNAIL_URL2 =
+  "https://s3-alpha-sig.figma.com/img/0e4c/0cea/ab36aa15e5780fa853f6b7b697cbb5bc?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=m1lxm4Je45-SzV8ak~RdrDhHwBfRE2uN7KCgxaZ55f-7Roe4e-hi9IzNNCALMCVycslu7NF7twfJtSxu~XyeFdpJoVLYi8mdWkkSKj1sBdwwltFXYwbqQ9MidkrLE3TQohuq1plO3cWbgYLRSoXd0e372MOdvA6I7Rsz4DtsiqSO83My2QtOQh1hDrRvzAvaj63JNsuqM-yUQNtFx0duND~RJUfca~Ei0hzxQUp-ue77fH9tDuo075b9ZmJfqyKYIVNQf4YaSVn921N~zm7za971oxPXeZ~9AQH4t5fBgL67tn4pvq4SpU~xFIETj6IG~VlZtxaRrgc9xf3wGQOwCQ__";
+
+  export const SERVER_URL = "http://localhost:1337"
+
+  export const EVENT_API_ENDPOINT = SERVER_URL + "/api/events?populate=*";

@@ -3,7 +3,7 @@
 1. Clone the repository
 
 ```bash
-  git clone https://github.com/mrr-bajaj/security-alarm-system.git
+  git clone https://github.com/mrr-bajaj/strapi-cms.git
 ```
 
 2. Open the cloned repository in your preferred IDE (Eg. VS Code) with the root folder as `strapi-cms\`.
